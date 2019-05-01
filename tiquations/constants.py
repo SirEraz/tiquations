@@ -11,6 +11,11 @@ luminous_efficacy= 683
 atmosphere=101325
 I_naught = 0.000000000001
 speed_of_light = 299792458
+k = 9e9
+e = -1.6e-19
+p = 1.6e-19
+proton_m = 1.7e-27
+
 def variables():
     print('''
 earth_g = 9.807 m/s^2
@@ -75,7 +80,11 @@ sun_to_pluto = 5,913,000,000 km
 I_naught = 1.0 * 10^-12 W/m^2
 speed_of_light = 299792458 m/s
 avogadros_num = 6.02214086 * 10^23 mol^-1
-earth_mass =  5.98 * 10^24 kg
+earth_mass =  5.98 * 10^24 k
+k = 9 * 10^9 Nm^2/c^2 (electrostatic constant)
+e = -1.6 * 10^-19 C (electron’s charge)
+p = 1.6 * 10^-19 C (proton’s charge)
+proton_m = 1.7 * 10^-27 kg 
 
 _m = mass in KG
 _r = radius in KM

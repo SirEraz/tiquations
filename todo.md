@@ -1,18 +1,18 @@
-TODO LIST:
+<h1>TODO LIST:</h1>
 
-EQUATIONS:
--complete electrostatics
--add in light equations
--add 1D linear motion
--add 2D motion (cliff & punt)
--add ramps
--add circular motion
--add gravity (did I do that already??)
--add satellites
--add energy
--add momentum
--add waves
--add sound
+<h2>EQUATIONS:</h2>
+<li>complete electrostatics</li>
+<li>add in light equations</li>
+<li>add 1D linear motion</li>
+<li>add 2D motion (cliff & punt)</li>
+<li>add ramps</li>
+<li>add circular motion</li>
+<li>add gravity (did I do that already??)</li>
+<li>add satellites</li>
+<li>add energy</li>
+<li>add momentum</li>
+<li>add waves</li>
+<li>add sound</li>
 
-NON-CODE:
--add Github wiki/more info for equations
+<h2>NON-CODE:</h2>
+<li>add Github wiki/more info for equations</li>

@@ -489,6 +489,77 @@ def gravity_tlg(time,length):
     """Usage: PENDULUMS - Find gravity using time and length"""
     return (2 * pi)**2 / time**2
 
+
+#ELECTROSTATICS
+
+#the following equations are for finding voltage (V)
+#EPE = electric potential energy
+#q = charge (couloumbs)
+
+#V = EPE/q
+
+#find V with EPE and q
+def voltage(epe,q):
+    """Usage: ELECTROSTATICS - Find voltage using electric potential energy and electric charge"""
+    return epe / q
+#find EPE with V and q
+def EPE(V,q):
+    """Usage: ELECTROSTATICS - Find EPE using voltage and electric charge"""
+    return V * q
+#find q with EPE and V
+def q(EPE,V):
+    """Usage: ELECTROSTATICS - Find electric charge using electric potential energy and voltage"""
+    return EPE / V
+
+#find work done by change in voltage
+#V(delta) = W/q
+
+#find change in V with W (in N) and q
+def Vdelta(W,q):
+    """Usage: ELECTROSTATICS - Find change in voltage using work (in N) and electric charge"""
+    return W / q
+#find W with change in V and q
+def workV(Vdelta,q):
+    """Usage: ELECTROSTATICS - Find work (in N) using change in voltage and electric charge"""
+    return Vdelta * q
+#find q with change in V and W
+def q_fromVdelta(W,Vdelta):
+    """Usage: ELECTROSTATICS - Find electric charge using work (in N) and change in voltage"""
+    return W / Vdelta
+
+#ELECTRIC FIELD STRENGTH (electrostatics subsection)
+
+#E = electric field strength
+#F = force of electric field (in N)
+#q = electric charge
+
+#E = F/q
+#find electric field strength (E) with F and q
+def Efq(F,q):
+    """Usage: ELECTROSTATICS - Find E using F and q"""
+    return F / q
+#find F with E and q
+def F_fromE(E,q):
+    """Usage: ELECTROSTATICS - Find F using E and q"""
+    return E * q
+#find q with E and F
+def q_fromE(E,F):
+    """Usage: ELECTROSTATICS - Find q using E and F"""
+    return F / E
+
+#E = K(Q/d^2)
+#Q = charge of a particle
+#d = distance from charged particle
+#K = electrostatic constant (9 * 10^9)
+
+#find E with Q and d
+def EQd(Q,d):
+    """Usage: ELECTROSTATICS - Find E using Q and d"""
+    d2 = d * d
+    innerfunc = Q / d2
+    return k * innerfunc
+
+
 #END OF SIR ERAZ GITHUB
 
 
